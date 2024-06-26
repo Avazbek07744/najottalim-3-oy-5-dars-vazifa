@@ -14,12 +14,13 @@ body{
     margin-bottom: 100px;   
 }
 
-div {
+.div {
+    width: 1400px;
     position: relative;
     display: inline-block;
 }
 
-div .span1 {
+.div .span1 {
     font-size: 48px;
     background-image: url("../img/Rectangle 6.png");
     background-size: cover;
@@ -41,9 +42,17 @@ div .span1 {
 }
 
 header {
+    width: 100%;
+    padding: 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* justify-content: center; */
+
+    position: fixed;
+    position: center;
+    top: 0;
+    background: aqua;
 }
 
 header .left {
